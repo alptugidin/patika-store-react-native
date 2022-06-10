@@ -1,12 +1,10 @@
 import {StyleSheet} from 'react-native';
-
 export const style = StyleSheet.create({
-  sliderImg: {
-    width: 200,
-    height: 200,
-  },
+  flatList: {},
   main: {
-    height: 200,
-    marginBottom: 5,
+    flex: 1,
+    alignItems: 'stretch',
+    paddingTop: 5,
+    paddingHorizontal: 5,
   },
 });
