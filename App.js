@@ -1,13 +1,8 @@
 import React from 'react';
-import StoreApp from 'app/workspace/patika_store/components/StoreApp';
-import {InputProvider} from 'app/workspace/patika_store/context/inputContext';
+import PatikaStore from 'app/workspace/patika_store/App';
 
 const App = () => {
-  return (
-    <InputProvider>
-      <StoreApp />
-    </InputProvider>
-  );
+  return <PatikaStore />;
 };
 
 export default App;
